@@ -48,19 +48,10 @@ Outputs include:
 - Envy violations
 - `results/exposure_matrix.csv`
 
----
-
-## Sample Results
-| Method           | Utility | Exposure Disparity | Envy Count |
-|------------------|---------|---------------------|-------------|
-| Top-k Relevance | 0.87    | High                | 42          |
-| FEA ($\delta$=0.1) | 0.83    | 0                   | 0           |
-
----
 
 ## Citation
 ```
-@inproceedings{your2025fairness,
+@inproceedings{...,
   title={Fairness in Human-Centered Knowledge Access},
   author={},
   booktitle={},
