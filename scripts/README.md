@@ -8,21 +8,21 @@ We propose a fairness-aware recommendation framework with provable guarantees, d
 
 ---
 
-## 🚀 Features
+## Features
 - Synthetic dataset generation with group-biased relevance
 - Fairness Enforcement Algorithm (FEA) for group exposure parity and envy-freeness
 - Utility, disparity, and envy evaluation metrics
 
 ---
 
-## 🛠 Installation
+## Installation
 ```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 ```
 fairness-knowledge-access/
 ├── data/              # Synthetic data
@@ -37,7 +37,7 @@ fairness-knowledge-access/
 
 ---
 
-## ▶️ Running the Experiment
+## Running the Experiment
 ```bash
 python scripts/run_experiment.py
 ```
@@ -50,15 +50,8 @@ Outputs include:
 
 ---
 
-## 📊 Sample Results
-| Method           | Utility | Exposure Disparity | Envy Count |
-|------------------|---------|---------------------|-------------|
-| Top-k Relevance | 0.87    | High                | 42          |
-| FEA ($\delta$=0.1) | 0.83    | 0                   | 0           |
 
----
-
-## 📖 Citation
+## Citation
 ```
 @inproceedings{your2025fairness,
   title={Fairness in Human-Centered Knowledge Access},
@@ -68,5 +61,5 @@ Outputs include:
 }
 ```
 
-## 📜 License
+##  License
 MIT License
