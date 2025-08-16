@@ -6,47 +6,40 @@ This repository contains code and experiments for the paper:
 
 We propose a fairness-aware recommendation framework with provable guarantees, designed for educational and digital library environments.
 
----
-
 ## About it
-- Synthetic dataset generation with group-biased relevance
-- Fairness Enforcement Algorithm (FEA) for group exposure parity and envy-freeness
+
+- Synthetic dataset generation with group-biased relevance  
+- Fairness Enforcement Algorithm (FEA) for group exposure parity and envy-freeness  
 - Utility, disparity, and envy evaluation metrics
 
----
+## Data
+
+The project uses both synthetic and real-world data:
+
+- **Real Dataset**: [Book Recommendation Dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset) from Kaggle. It includes user, book, and rating information. All credit for the Kaggle dataset goes to its original creator.
 
 ## Installation
+
+Install required dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## Project Structure
+## Repo Structure
 ```
 fairness-knowledge-access/
-├── data/              # Synthetic data for testing purpose
+├── data/              # Synthetic and real-world data
 ├── src/               # Core logic modules
 ├── results/           # Outputs and visualizations
 ├── scripts/           # Run experiments
 ├── requirements.txt   # Dependencies
 └── README.md          # This file
 ```
-
----
-
 ## Running the Experiment
 ```bash
 python scripts/run_experiment.py
 ```
-
-Outputs include:
-- Total utility
-- Exposure disparity
-- Envy violations
-- `results/exposure_matrix.csv`
-
-
 ## Citation
 ```
 @inproceedings{...,
@@ -57,5 +50,4 @@ Outputs include:
 }
 ```
 
-## License
-MIT License
+
