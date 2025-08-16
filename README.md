@@ -8,7 +8,7 @@ We propose a fairness-aware recommendation framework with provable guarantees, d
 
 ---
 
-## Features
+## About it
 - Synthetic dataset generation with group-biased relevance
 - Fairness Enforcement Algorithm (FEA) for group exposure parity and envy-freeness
 - Utility, disparity, and envy evaluation metrics
