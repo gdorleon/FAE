@@ -25,8 +25,7 @@ pip install -r requirements.txt
 ## Project Structure
 ```
 fairness-knowledge-access/
-├── data/              # Synthetic data
-├── notebooks/         # (Optional) Exploration notebooks
+├── data/              # Synthetic data / real dataset
 ├── src/               # Core logic modules
 ├── results/           # Outputs and visualizations
 ├── appendix/          # LaTeX appendix for submission
