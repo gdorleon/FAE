@@ -16,7 +16,7 @@ We propose a fairness-aware recommendation framework with provable guarantees, d
 
 The project uses both synthetic and real-world data:
 
-- **Real Dataset**: [Book Recommendation Dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset) from Kaggle. It includes user, book, and rating information. All credit for the Kaggle dataset goes to its original creator.
+- **Real Dataset**: [Book Recommendation Dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset) from Kaggle. It includes user, book, and rating information. Credit for the dataset goes to its original creator.
 
 ## Installation
 
