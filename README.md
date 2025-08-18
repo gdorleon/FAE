@@ -1,7 +1,6 @@
 # Fairness in Human-Centered Knowledge Access
 
 This repository contains code and experiments for the paper:
-
 **"Achieving Exposure Parity and Envy-Freeness in AI-Driven Knowledge Systems"**
 
 We propose a fairness-aware recommendation framework with provable guarantees, designed for educational and digital library environments.
